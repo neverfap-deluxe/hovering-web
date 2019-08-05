@@ -3,7 +3,7 @@
   description: "Hovering."
   date: 2019-05-28
   draft: false
-  tags: [ "porn recovery", "porn addiction", "addiction", "awareness", "nofap", "neverfap", "never fap", "NoFap Companion", "NoFap Companion", "neverfap deluxe", "nofap guide", "neverfap basics" ]
+  tags: [ "hovering", "meditation", "meditation technique",  ]
   categories: [ "" ]
 
   slug: "/"
@@ -12,4 +12,3 @@
 
 ---
 
-Recovery
