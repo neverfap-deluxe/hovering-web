@@ -1,12 +1,12 @@
 ---
-  title: "Hovering VS Traditional Meditation"
+  title: "Hovering VS Meditation"
   description: "Learn how to hover and take your meditation practice to the next level."
   date: 2019-05-28
   draft: false
   tags: [ "hovering", "hover", "how to hover", "what is hovering", "meditation", "meditation technique", "porn addiction recovery", "neverfap deluxe", "neverfap" ]
   categories: [ "" ]
 
-  slug: "/hovering-vs-traditional-meditation"
+  slug: "/hovering-vs-meditation"
 
   pageId: ""
 
