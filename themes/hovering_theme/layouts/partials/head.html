@@ -3,6 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   {{ .Hugo.Generator }}
+  <title>{{ .Title }}</title>
 
   <meta name="author" content="{{ .Site.Author.name }}">
   <meta name="description" content="{{ .Description }}"/>
@@ -37,11 +38,10 @@
   <link rel="stylesheet" href="/css/normalize.css">
 
   <!-- Google Fonts -->
-  <!-- <link href="https://fonts.googleapis.com/css?family=Parisienne|Montserrat|Noto+Sans" rel="stylesheet"> -->
-  <link href="https://fonts.googleapis.com/css?family=Parisienne|Noto+Sans:400|Lato:400,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
 
   <!-- Open Graph Schema -->
   {{ if .IsPage }}
@@ -55,8 +55,8 @@
                 "@id": "{{ .Site.BaseURL }}"
           },
           "articleSection" : "{{ .Section }}",
-          "name" : "{{ if eq .Section "courses" }}{{ "NeverFap Deluxe Courses |"}}{{ else if eq .Section "articles"}}{{ "NeverFap Deluxe Articles |"}}{{ else if eq .Section "practices"}}{{ "NeverFap Deluxe Practices |"}}{{ else }}{{ "NeverFap Deluxe |"}}{{ end }} {{ .Title }}",
-          "headline" : "{{ if eq .Section "courses" }}{{ "NeverFap Deluxe Courses |"}}{{ else if eq .Section "articles"}}{{ "NeverFap Deluxe Articles |"}}{{ else if eq .Section "practices"}}{{ "NeverFap Deluxe Practices |"}}{{ else }}{{ "NeverFap Deluxe |"}}{{ end }} {{ .Title }}",
+          "name" : "{{ .Title }}",
+          "headline" : "{{ .Title }}",
           "description" : "{{ .Description }}",
           "inLanguage" : "en-US",
           "author" : "{{ .Site.Author.name }}",
@@ -76,7 +76,7 @@
           "@context": "http://schema.org",
           "@type": "WebSite",
           "url": "{{ .Permalink }}",
-          "name": "{{ if eq .Section "courses" }}{{ "NeverFap Deluxe Courses |"}}{{ else if eq .Section "articles"}}{{ "NeverFap Deluxe Articles |"}}{{ else if eq .Section "practices"}}{{ "NeverFap Deluxe Practices |"}}{{ else }}{{ "NeverFap Deluxe |"}}{{ end }} {{ .Title }}",
+          "name": "{{ .Title }}",
           "author": {
             "@type": "Person",
             "name": "{{ .Site.Author.name }}"
@@ -86,8 +86,6 @@
       {{ end }}
     </script>
   {{ end }}
-
-  <title>{{ if eq .Section "courses" }}{{ "NeverFap Deluxe Courses |"}}{{ else if eq .Section "articles"}}{{ "NeverFap Deluxe Articles |"}}{{ else if eq .Section "practices"}}{{ "NeverFap Deluxe Practices |"}}{{ else }}{{ "NeverFap Deluxe |"}}{{ end }} {{ .Title }}</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132863786-1"></script>

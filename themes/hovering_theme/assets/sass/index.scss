@@ -1,14 +1,9 @@
 @import "_global.scss";
 @import "_main.scss";
-@import "_banner.scss";
-@import "_plyr.scss";
 
 // // templates
-// @import "_header.scss";
-// @import "_account_info.scss";
-// @import "_box_info.scss";
-// @import "_breadcrumbs.scss";
-// @import "_footer.scss";
+@import "_header.scss";
+@import "_footer.scss";
 
 // // pages
 // @import "_homepage.scss";
@@ -26,8 +21,8 @@
 // @import "_form.scss";
 // @import "_shortcodes.scss";
 
-.hovering__main {
-  .hovering__main__hero {
+.main {
+  .main__hero {
     position: relative;
 
     display: flex;
@@ -54,19 +49,19 @@
   }
 }
 
-.hovering__main__section {
-  .hovering__main__section--title {
+.main__section {
+  .main__section--title {
 
   }
 
-  .hovering__main__section--content {
+  .main__section--content {
     p {
-      
+
     }
   }
 }
 
-.hovering__circle__container {
+.circle__container {
   position: absolute;
 
   display: flex;
@@ -75,7 +70,7 @@
 
   cursor: default;
 
-  .hovering__circle {
+  .circle {
     opacity: 1;
     transition: .2s;
 
@@ -91,3 +86,19 @@
     border-radius: 50%;
   }
 }
+
+.main__table {
+  .main__table__header {
+    .main__table__header--text {
+
+    }
+  }
+  .main__table__row {
+    .main__table__row--text {
+
+    }
+  }
+}
+
+
+

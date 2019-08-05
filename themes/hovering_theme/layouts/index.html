@@ -2,42 +2,43 @@
 <html>
   {{ partial "head.html" . }}
   <body>
-    <header class="hovering__header">
-      <divc>
+    {{ partial "header.html" . }}
 
-      </div>
-    </header>
-
-    <main class="hovering__main">
-      <div class="hovering__main__hero">
-        <div class="hovering__main__hero__title">
+    <main class="main">
+      <!-- HERO -->
+      <div class="main__hero">
+        <div class="main__hero__title">
           <h1>Hovering</h1>
           <h2></h2>
         </div>
 
-        <div class="hovering__circle__container cr"><div class="hovering__circle cri"></div></div>
-        <div class="hovering__circle__container"><div class="hovering__circle"></div></div>
-        <div class="hovering__circle__container"><div class="hovering__circle"></div></div>
-        <div class="hovering__circle__container"><div class="hovering__circle"></div></div>
+        <div class="circle__container cr"><div class="circle cri"></div></div>
+        <div class="circle__container"><div class="circle"></div></div>
+        <div class="circle__container"><div class="circle"></div></div>
+        <div class="circle__container"><div class="circle"></div></div>
       </div>
+      <!-- HERO END -->
 
-      <div class="hovering__main__section">
-        <h2 class="hovering__main__section--title">
+      <!-- SECTION -->
+      <div class="main__section">
+        <h2 class="main__section--title">
           What is Hovering?
         </h2>
-        <div class="hovering__main__section--content">
+        <div class="main__section--content">
           <p>Hovering is a meditation technique.</p>
         </div>
 
-        <div class="hovering__circle__container"><div class="hovering__circle"></div></div>
+        <div class="circle__container"><div class="circle"></div></div>
       </div>
+      <!-- SECTION END -->
 
-      <div class="hovering__main__section">
-        <h2 class="hovering__main__section--title">
+      <!-- SECTION -->
+      <div class="main__section">
+        <h2 class="main__section--title">
           Why Hovering?
         </h2>
 
-        <div class="hovering__main__section--content">
+        <div class="main__section--content">
           <p>You know when something just clicks and it finally makes sense for the first time, and it just changes the way you think about things?</p>
           <p>That's ultimately what meditation aims to achieve.</p>
           <p>Once meditation finally made sense to me, it completely and utterly changed the way I think about life in ways I couldn't possibly describe.</p>
@@ -49,40 +50,51 @@
           <p>Especially children and teenagers.</p>
         </div>
 
-        <!-- ROW -->
-        <div class="hovering__main__table">
-          <div class="hovering__main__table__row">
-            <div class="hovering__main__table__row--text">
-
+        <div class="main__table">
+          <!-- HEADER -->
+          <div class="main__table__header">
+            <div class="main__table__header--text">
+              Traditional Meditation
             </div>
-            <div class="hovering__main__table__row--text">
-
+            <div class="main__table__header--text">
+              Hovering
             </div>
           </div>
+          <!-- HEADER END -->
 
           <!-- ROW -->
-          <div class="hovering__main__table__row">
-            <div class="hovering__main__table__row--text">
+          <div class="main__table__row">
+            <div class="main__table__row--text">
+              Abstract.
+            </div>
+            <div class="main__table__row--text">
+              Concrete.
+            </div>
+          </div>
+          <!-- ROW END -->
+
+          <!-- ROW -->
+          <div class="main__table__row">
+            <div class="main__table__row--text">
 
             </div>
-            <div class="hovering__main__table__row--text">
+            <div class="main__table__row--text">
 
             </div>
           </div>
-
+          <!-- ROW END -->
         </div>
+      </div>
+      <!-- SECTION END -->
+
+      <!-- SECTION -->
+      <div class="main__section">
 
       </div>
-
-      <div class="hovering__main__section">
-
-      </div>
-
+      <!-- SECTION END -->
     </main>
 
-    <footer class="hovering__header">
-
-    </footer>
+    {{ partial "header.html" . }}
   </body>
 </html>
 
