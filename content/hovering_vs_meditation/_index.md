@@ -1,5 +1,5 @@
 ---
-  title: "How To Hover"
+  title: "Hovering VS Traditional Meditation"
   description: "Learn how to hover and take your meditation practice to the next level."
   date: 2019-05-28
   draft: false
