@@ -32,6 +32,21 @@
 
     width: 100vw;
     height: 100vh;
+
+    background: white;
+  }
+
+  .main__hero__title__container {
+    .main__hero__title {
+      font-size:
+
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+      animation: float 6s ease-in-out infinite;
+    }
+    .main__hero__title__sub {
+
+    }
   }
 
   .cr {
@@ -51,7 +66,9 @@
 
 .main__section {
   .main__section--title {
-
+    border: 10px solid;
+    border-image-source: linear-gradient(45deg, rgba(255,46,182,1) 0%, rgba(227,152,2,1) 100%);
+    border-image-slice: 1;
   }
 
   .main__section--content {
