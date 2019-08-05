@@ -1,7 +1,7 @@
 @import "_global.scss";
 @import "_main.scss";
 
-// // templates
+// templates
 @import "_header.scss";
 @import "_footer.scss";
 
@@ -50,12 +50,13 @@
       line-height: 16rem;
       height: 16rem;
       width: 16rem;
-  
+
       border-radius: 16rem;
 
       box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
       transform: translatey(0px);
       animation: float 6s ease-in-out infinite;
+
     }
   }
   .main__hero__title__sub {
@@ -63,9 +64,19 @@
   }
 
   .cr {
+    right: 0;
+    bottom: 0;
+
     .cri {
       width: 500px;
       height: 500px;
+    }
+  }
+
+  .cr2 {
+    .cr2i {
+      width: 300px;
+      height: 300px;
     }
   }
 
@@ -75,6 +86,13 @@
       height: 200px;
     }
   }
+
+  .cl2 {
+    .cl2i {
+      width: 1000px;
+      height: 1000px;
+    }
+  }
 }
 
 .main__section {
@@ -82,7 +100,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
   margin-top: 4rem;
   margin-bottom: 4rem;
 
@@ -104,7 +122,7 @@
     width: 400px;
     padding: 1rem;
     text-align: center;
-    
+
     border: 10px solid;
     border-image-source: linear-gradient(45deg, rgba(255,46,182,1) 0%, rgba(227,152,2,1) 100%);
     border-image-slice: 1;
@@ -131,10 +149,10 @@
 .main__strip {
   border-top: 4px solid black;
   border-bottom: 4px solid black;
-  
+
   padding-top: 1rem;
   padding-bottom: 1rem;
-  
+
   display: flex;
 
   .main__strip__title {
@@ -186,5 +204,14 @@
   }
 }
 
+@media screen and (min-width: 420px) {
 
+}
 
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+
+}
