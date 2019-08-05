@@ -1,7 +1,7 @@
 @import "_global.scss";
 @import "_main.scss";
 
-// // templates
+// templates
 @import "_header.scss";
 @import "_footer.scss";
 
@@ -38,11 +38,14 @@
 
   .main__hero__title__container {
     .main__hero__title {
-      font-size:
+      font-size: 4rem;
+
+      padding: 1rem;
 
       box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
       transform: translatey(0px);
       animation: float 6s ease-in-out infinite;
+
     }
     .main__hero__title__sub {
 
@@ -50,9 +53,19 @@
   }
 
   .cr {
+    right: 0;
+    bottom: 0;
+    
     .cri {
       width: 500px;
       height: 500px;
+    }
+  }
+
+  .cr2 {
+    .cr2i {
+      width: 300px;
+      height: 300px;
     }
   }
 
@@ -62,16 +75,27 @@
       height: 200px;
     }
   }
+
+  .cl2 {
+    .cl2i {
+      width: 1000px;
+      height: 1000px;
+    }
+  }
 }
 
 .main__section {
   .main__section--title {
+    padding: 1rem;
+    box-shadow: -5px 5px 0px 0px black;
+
     border: 10px solid;
     border-image-source: linear-gradient(45deg, rgba(255,46,182,1) 0%, rgba(227,152,2,1) 100%);
     border-image-slice: 1;
   }
 
   .main__section--content {
+
     p {
 
     }
@@ -117,5 +141,14 @@
   }
 }
 
+@media screen and (min-width: 420px) {
 
+}
 
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+
+}
