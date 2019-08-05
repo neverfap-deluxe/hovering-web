@@ -1,0 +1,8 @@
+baseURL = "https://tryhovering.com/"
+title = "NeverFap Deluxe Hovering | Get Immediate Help With Your Porn Addiction."
+languageCode = "en-us"
+theme = "hovering_theme"
+
+enableRobotsTXT = true
+canonifyURLs = true
+googleAnalytics = "UA-132863786-4"
