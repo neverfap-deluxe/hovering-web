@@ -2,9 +2,10 @@
 <html>
   {{ partial "head.html" . }}
   <body>
-    {{ partial "header.html" . }}
 
     <main class="main">
+    {{ partial "header.html" . }}
+
       <!-- HERO -->
       <div class="main__hero">
         <div class="main__hero__title__container">
@@ -30,12 +31,34 @@
         <div class="main__section--title__container">
           <h2 class="main__section--title">
             What is Hovering?
-          </h2>      
+            <div class="circle__container csection"><div class="circle csectioni"></div></div>
+          </h2>     
         </div>
-        <div class="main__section--content">
-          <p>
-            Hovering is a meditation technique.
-          </p>
+        <div class="main__section--content__container">
+          <div class="main__section--content">
+            <p>
+              Hovering is a meditation technique.
+            </p>
+            <p>
+              It has been designed to assist people who <span class="emphasis">struggle to meditate</span> via traditional means, such as those who spend a lot of time with technology or young people who <span class="emphasis">do not yet have a solid foundation</span> of mental health best practice.
+            </p>
+            <p>
+              It has proven incredibly effective at teaching people to learn to meditate, without the whole thing seeming so ...abstract.
+            </p>
+            <div class="circle__container content__circle">
+              <div id="hoverCircleExample" class="circle">hover</div>
+            </div>
+            <script>
+              const hoverCircleExample = document.querySelector('#hoverCircleExample');
+
+              hoverCircleExample.onmouseenter = function() {
+                hoverCircleExample.classList.add("")
+              }
+              hoverCircleExample.onmouseleave = function() {
+                hoverCircleExample.classList.add("")
+              }
+            </script>
+          </div>
         </div>
       </div>
       <!-- SECTION END -->  
@@ -45,21 +68,24 @@
         <div class="main__section--title__container">
           <h2 class="main__section--title">
             What is Hovering?
+            <div class="circle__container csection1"><div class="circle csection1i"></div></div>
           </h2>      
         </div>
-        <div class="main__section--content">
-          <p>
-            My name is Julius Reade and I run a porn addiction recovery website. In doing so I’ve become aware of many of the limitations of existing approaches towards mental health.
-          </p>
-          <p>
-            Especially for today’s generation of young people, as well as most adults I speak with as well.
-          </p>
-          <p>
-            For example, a lot of the teenagers I speak to really struggle not only to understand this idea of meditation, but to do something as simple as keep their minds still for a period of time. Not only because it’s a skill which they’ve yet to develop, but also because it’s not how they’re being brought up in regards to their day-to-day.
-          </p>
-          <p>
-            Instead, most teenagers have become stuck within this paradigm of constantly checking some sort of digital device,
-          </p>
+        <div class="main__section--content__container">
+          <div class="main__section--content">
+            <p>
+              My name is Julius Reade and I run a porn addiction recovery website. In doing so I’ve become aware of many of the limitations of existing approaches towards mental health.
+            </p>
+            <p>
+              Especially for today’s generation of young people, as well as most adults I speak with as well.
+            </p>
+            <p>
+              For example, a lot of the teenagers I speak to really struggle not only to understand this idea of meditation, but to do something as simple as keep their minds still for a period of time. Not only because it’s a skill which they’ve yet to develop, but also because it’s not how they’re being brought up in regards to their day-to-day.
+            </p>
+            <p>
+              Instead, most teenagers have become stuck within this paradigm of constantly checking some sort of digital device,
+            </p>
+          </div>
         </div>
       </div>
       <!-- SECTION END -->
@@ -69,19 +95,22 @@
         <div class="main__section--title__container">
           <h2 class="main__section--title">
             Why Hovering?
+            <div class="circle__container csectionc"><div class="circle csectionci"></div></div>
           </h2>      
         </div>
     
-        <div class="main__section--content">
-          <p>You know when something just clicks and it finally makes sense for the first time, and it just changes the way you think about things?</p>
-          <p>That's ultimately what meditation aims to achieve.</p>
-          <p>Once meditation finally made sense to me, it completely and utterly changed the way I think about life in ways I couldn't possibly describe.</p>
-          <p>The problem is that this is rare. Most people meditate for a bit, it doesn't click, and then they put it off for years.</p>
+        <div class="main__section--content__container">
+          <div class="main__section--content">
+            <p>You know when something just clicks and it finally makes sense for the first time, and it just changes the way you think about things?</p>
+            <p>That's ultimately what meditation aims to achieve.</p>
+            <p>Once meditation finally made sense to me, it completely and utterly changed the way I think about life in ways I couldn't possibly describe.</p>
+            <p>The problem is that this is rare. Most people meditate for a bit, it doesn't click, and then they put it off for years.</p>
 
-          <p>Hovering aims to address that by providing an intuitive way to think about meditation, that isn't completely abstract.</p>
+            <p>Hovering aims to address that by providing an intuitive way to think about meditation, that isn't completely abstract.</p>
 
-          <p>That anyone can relate to, especially those who have never taken the time to study meditation, awareness, mental health practices etc.</p>
-          <p>Especially children and teenagers.</p>
+            <p>That anyone can relate to, especially those who have never taken the time to study meditation, awareness, mental health practices etc.</p>
+            <p>Especially children and teenagers.</p>
+          </div>
         </div>
 
         <div class="main__table">
