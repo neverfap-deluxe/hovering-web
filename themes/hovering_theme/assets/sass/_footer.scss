@@ -1,9 +1,13 @@
 .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
 
+  border-top: 4px solid black;
 }
 
 .footer__links {
   .footer__link {
-
+    margin-right: 1rem;
   }
 }

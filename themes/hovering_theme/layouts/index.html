@@ -17,8 +17,30 @@
         <div class="circle__container cr2"><div class="circle cr2i"></div></div>
         <div class="circle__container cl"><div class="circle cli"></div></div>
         <div class="circle__container cl2"><div class="circle cl2i"></div></div>
+        <div class="circle__container cl3"><div class="circle cl3i"></div></div>
+        <div class="circle__container cl4"><div class="circle cl4i"></div></div>
       </div>
       <!-- HERO END -->
+
+      <div class="main__hero__socials">
+        <a href="/" class="main__hero__socials__button">
+          <div class="main__hero__socials__button__logo"></div>
+          <div class="main__hero__socials__button__text">Reddit</div>
+        </a>
+        <a href="/" class="main__hero__socials__button">
+          <div class="main__hero__socials__button__logo"></div>
+          <div class="main__hero__socials__button__text">Discord</div>
+        </a>
+        <a href="https://hovering.neverfapdeluxe.com/" class="main__hero__socials__button">
+          <div class="main__hero__socials__button__logo"></div>
+          <div class="main__hero__socials__button__text">App</div>
+        </a>
+
+        <div class="circle__container csocial"><div class="circle csociali"></div></div>
+        <div class="circle__container csocial1"><div class="circle csocial1i"></div></div>
+        <div class="circle__container csocial2"><div class="circle csocial2i"></div></div>
+      </div>
+
 
       <!-- STRIP -->
       <!-- <div class="main__strip">
@@ -36,26 +58,49 @@
         </div>
         <div class="main__section--content__container">
           <div class="main__section--content">
+            <h3>
+              Introduction
+            </h3>
             <p>
-              Hovering is a meditation technique.
+              Hovering is a simple meditation technique.
             </p>
             <p>
-              It has been designed to assist people who <span class="emphasis">struggle to meditate</span> via traditional means, such as those who spend a lot of time with technology or young people who <span class="emphasis">do not yet have a solid foundation</span> of mental health best practice.
+              It has been designed to assist people who <span class="emphasis">struggle to meditate via traditional means</span>, such as those highly addicted to technology, as well as people who do not yet have a solid foundation of mental health best practice.
             </p>
             <p>
-              It has proven incredibly effective at teaching people to learn to meditate, without the whole thing seeming so ...abstract.
+              The problem with traditional meditation is that is highly abstract and so hovering aims to make it a whole lot more concrete.
+            </p>
+            <p>
+              So you can have that 'ah-ha' moment sooner, rather than later.
+            </p>
+            <h3>
+              How to hover
+            </h3>
+            <p>
+              You simply hover your cursor over the button.
+            </p>
+            <p id="contentText">
+              And relax.
             </p>
             <div class="circle__container content__circle">
-              <div id="hoverCircleExample" class="circle">hover</div>
+              <div id="hoverCircleExample" class="circle">
+                <div id="hoverCircleText" class="circle__text">
+                  hover
+                </div>
+              </div>
             </div>
             <script>
               const hoverCircleExample = document.querySelector('#hoverCircleExample');
+              const hoverCircleText = document.querySelector('#hoverCircleText');
+              const contentText = document.querySelector('#contentText');
 
               hoverCircleExample.onmouseenter = function() {
-                hoverCircleExample.classList.add("")
+                hoverCircleText.classList.add("hover__text__fade")
+                contentText.classList.add("hover__text__unfade")
               }
               hoverCircleExample.onmouseleave = function() {
-                hoverCircleExample.classList.add("")
+                hoverCircleText.classList.remove("hover__text__fade")
+                contentText.classList.remove("hover__text__unfade")
               }
             </script>
           </div>
@@ -67,12 +112,15 @@
       <div class="main__section">
         <div class="main__section--title__container">
           <h2 class="main__section--title">
-            What is Hovering?
+            Why Hovering?
             <div class="circle__container csection1"><div class="circle csection1i"></div></div>
           </h2>      
         </div>
         <div class="main__section--content__container">
           <div class="main__section--content">
+            <h3>
+              Why I created Hovering
+            </h3>
             <p>
               My name is Julius Reade and I run a porn addiction recovery website. In doing so I’ve become aware of many of the limitations of existing approaches towards mental health.
             </p>
