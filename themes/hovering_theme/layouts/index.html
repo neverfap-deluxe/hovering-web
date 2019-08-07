@@ -99,6 +99,7 @@
 
               const mainSectionsContentContainers = document.querySelectorAll('.main__section--content__container');
               const mainSectionsContentContainersWords = document.querySelectorAll('.main__section--content p');
+              const mainSectionsContentContainersHeaders = document.querySelectorAll('.main__section--content h3');
 
               hoverCircleExample.onmouseenter = function() {
                 hoverCircleText.classList.add("hover__text__fade");
@@ -107,9 +108,11 @@
                 for (let i = 0; i < mainSectionsContentContainers.length; i++) {
                   mainSectionsContentContainers[i].classList.add('main__section--black');
                 }
-
                 for (let i = 0; i < mainSectionsContentContainersWords.length; i++) {
                   mainSectionsContentContainersWords[i].classList.add('main__section--text-white');
+                }
+                for (let i = 0; i < mainSectionsContentContainersHeaders.length; i++) {
+                  mainSectionsContentContainersHeaders[i].classList.add('main__section--text-white');
                 }
               }
               hoverCircleExample.onmouseleave = function() {
@@ -121,7 +124,9 @@
                 for (let i = 0; i < mainSectionsContentContainersWords.length; i++) {
                   mainSectionsContentContainersWords[i].classList.remove('main__section--text-white');
                 }
-
+                for (let i = 0; i < mainSectionsContentContainersHeaders.length; i++) {
+                  mainSectionsContentContainersHeaders[i].classList.remove('main__section--text-white');
+                }
               }
             </script>
           </div>

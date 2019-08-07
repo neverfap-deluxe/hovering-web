@@ -47,7 +47,7 @@
     cursor: default;
 
     position: absolute;
-    bottom: 4rem;
+    top: 26rem;
     border: 1px solid white;
     padding: 1.6rem;
     background: $black-darkmode-background;
@@ -196,6 +196,7 @@
   justify-content: center;
   align-items: center;
 
+  padding-top: 2rem;
   padding-bottom: 4rem;
   z-index: 30;
   
