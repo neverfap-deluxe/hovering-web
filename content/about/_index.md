@@ -13,3 +13,6 @@
 ---
 
 Hovering is a meditation technique has been designed to assist people in the 21st century.
+
+It was created as part of <a href="https://neverfapdeluxe.com/" class="link">NeverFap Deluxe</a>, a website I created to help people suffering from porn addiction.
+
