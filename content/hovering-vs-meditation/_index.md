@@ -12,6 +12,8 @@
 
 ---
 
+<h3>Hovering is Meditation</h3>
+
 Hovering itself is a form of meditation.
 
 So really this article what we will be comparing the technique of hovering against traditional meditation.

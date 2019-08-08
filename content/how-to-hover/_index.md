@@ -12,7 +12,9 @@
 
 ---
 
-Hovering is a very simple meditation technique.
+<h3>Introduction</h3>
+
+Hovering is a simple meditation technique.
 
 There are many different ways you can practice it, whether on your computer, on your mobile phone or even with a simple piece of paper with a circle drawn on it. 
 

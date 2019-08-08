@@ -46,6 +46,9 @@
   .main__hero__title__sub {
     cursor: default;
 
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+
     position: absolute;
     top: 26rem;
     border: 1px solid white;
@@ -58,12 +61,19 @@
 
 .main__section--text-white {
   color: white;
-  transition: 1s;
+  transition: .6s;
+}
+
+.main__section--text-white-border {
+  color: white;
+  transition: .6s;
+  border-top: 1px solid white!important;
+  border-bottom: 1px solid white!important;
 }
 
 .main__section--black {
   background: $black-darkmode-background!important;
-  transition: 1s;
+  transition: .6s;
 }
 
 .main__section {
@@ -72,7 +82,7 @@
   justify-content: center;
   align-items: center;
 
-  transition: 1s;
+  transition: .6s;
   // margin-top: 4rem;
   // margin-bottom: 4rem;
 
@@ -121,13 +131,13 @@
 
     padding-top: 4rem;
     padding-bottom: 4rem;
-    transition: 1s;
+    transition: .6s;
     .main__section--content {
       width: 600px;
 
       margin-left: 1rem;
       margin-right: 1rem;
-      transition: 1s;
+      transition: .6s;
 
       p {
         // font-family: 'Lato', sans-serif;
@@ -135,7 +145,7 @@
         font-weight: 400;
         font-size: 1.2rem;
         line-height: 2rem;
-        transition: 1s;
+        transition: .6s;
       }
       h3 {
         margin-top: 3rem;
@@ -147,6 +157,7 @@
         font-weight: 900;
         line-height: 2.1rem;
         // text-decoration: underline;
+        transition: .6s;
       }
 
       .content__circle {
@@ -191,14 +202,18 @@
 
 .main__hero__socials {
   position: relative;
-  
-  
+    
   display: flex;
+  flex-wrap: wrap;
+
   justify-content: center;
   align-items: center;
 
   padding-top: 2rem;
   padding-bottom: 4rem;
+
+  margin-top: 1rem;
+
   z-index: 30;
   
   .main__hero__socials__button {
@@ -216,7 +231,9 @@
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 
+    margin-left: 2rem;
     margin-right: 2rem;
+    margin-top: 3rem;
 
     transition: 0.3s;
     cursor: pointer;
@@ -231,8 +248,8 @@
       height: 36px;
     }
     .reddit__logo {
-      width: 30px;
-      height: 30px;
+      width: 28px;
+      height: 28px;
     }
     .hover__logo {
       width: 36px;
@@ -274,11 +291,26 @@
 }
 
 @media screen and (min-width: 420px) {
+  .main {
+    .main__hero__title__sub {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+  }
+  .main__hero__socials {
+    margin-top: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .main__hero__socials {
+  .main__hero__socials { 
+    flex-wrap: initial;
     padding-bottom: 22rem;
+
+    .main__hero__socials__button {
+      margin-left: 0;
+      margin-top: 0;
+    }
   }
 }
 
@@ -287,5 +319,3 @@
 
 @media screen and (min-width: 1280px) {
 }
-
-

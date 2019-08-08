@@ -27,7 +27,7 @@
 
 .baseof {
   .header {
-    margin-bottom: 4rem!important;
+    margin-bottom: 2rem;
   }
 
   h3 {
@@ -43,9 +43,17 @@
   }
 }
 
+@media screen and (min-width: 420px) {
+  .baseof {
+    .header {
+      margin-bottom: 4rem!important;
+    }
+  }  
+}
+
 ul {
-  border-top: 1px solid cyan;
-  border-bottom: 1px solid cyan;
+  // border-top: 4px solid cyan;
+  border-bottom: 4px solid cyan;
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-top: 1.6rem;

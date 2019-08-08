@@ -12,9 +12,16 @@
 
 ---
 
-Hovering is a meditation technique has been designed to assist people in the 21st century.
+<h3>About</h3>
+
+Hovering is a meditation technique which aims to assist people who struggle with traditional meditation, as well as with their mental health in general.
 
 It was created as part of <a href="https://neverfapdeluxe.com/" class="link">NeverFap Deluxe</a>, a website I created to help people suffering from porn addiction.
+
+It has been designed to be easy to understand, simple to practice, as well as remain acessible to people of all ages.
+
+<h3>Rationale</h3>
+
 
 You know when something just clicks and it finally makes sense for the first time, and it just changes the way you think about things?
 
