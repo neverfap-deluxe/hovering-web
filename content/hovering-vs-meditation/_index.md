@@ -1,5 +1,5 @@
 ---
-  title: "Hovering VS Meditation"
+  title: "Hovering Vs Meditation"
   description: "Learn how to hover and take your meditation practice to the next level."
   date: 2019-05-28
   draft: false
@@ -12,7 +12,7 @@
 
 ---
 
-<h3>Hovering is Meditation</h3>
+<h3>Hovering is a form of Meditation</h3>
 
 Hovering itself is a form of meditation.
 

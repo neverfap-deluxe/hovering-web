@@ -12,29 +12,34 @@
 
 ---
 
-<h3>About</h3>
+<h3>Introduction</h3>
 
-Hovering is a meditation technique which aims to assist people who struggle with traditional meditation, as well as with their mental health in general.
+Hovering is a meditation technique which aims to assist people who struggle with traditional meditation, as well as those who struggle with their mental health in general.
 
-It was created as part of <a href="https://neverfapdeluxe.com/" class="link">NeverFap Deluxe</a>, a website I created to help people suffering from porn addiction.
+Hovering was created as part of <a href="https://neverfapdeluxe.com/" class="link">NeverFap Deluxe</a>, a website I created to help people suffering from porn addiction.
 
-It has been designed to be easy to understand, simple to practice, as well as remain acessible to people of all ages.
+Hovering has been designed to be easy to understand, simple to practice, as well as remain acessible to people of all ages.
 
 <h3>Rationale</h3>
 
 
-You know when something just clicks and it finally makes sense for the first time, and it just changes the way you think about things?
+You know when something mentally clicks and it finally makes sense for the first time, and it just changes the way you fundamentally think about things?
 
-That's ultimately what meditation aims to achieve.
+Well, that's ultimately what meditation aims to achieve for your mental health.
 
-Once meditation finally made sense to me, it completely and utterly changed the way I think about life in ways I couldn't possibly describe.
+It aims to expose a level of clarity that allows you to finally be truly free with your mind, and once meditation finally clicked for me, it completely life-changing.
 
-The problem is that this is rare. Most people meditate for a bit, it doesn't click, and then they put it off for years.
+The only problem is that it took a very long time for meditation to click for me, which I consider to be a huge problem.
 
+And really, I was one of the lucky ones.
 
-Hovering aims to address that by providing an intuitive way to think about meditation, that isn't completely abstract.
+What happens for most people is that they meditate for a bit, it doesn't click, and then they put it off for years thinking it's a completely pointless practice.
 
+Certainly, I don't blame them. Because I was one of those people who tried it and thought it was pointless too. 
 
-That anyone can relate to, especially those who have never taken the time to study meditation, awareness, mental health practices etc.
+Regardless, it's a problem I want to address in a meaningful way which is why I created Hovering.
 
-Especially children and teenagers.
+Hovering aims to provide people with an intuitive way to practice and think about meditation, that isn't completely abstract and that doesn't feel pointless from the outset.
+
+Which is especially helpful for teenagers and children who struggle to sit still for even a moment. 
+
