@@ -4,10 +4,23 @@
   padding: 2rem;
 
   border-top: 4px solid black;
+
+  .footer__text__thing {
+    line-height: 1.6rem;
+  }
 }
 
 .footer__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   .footer__link {
+    display: block;
     margin-right: 1rem;
+    color: black;
+    transition: .2s;
+  }
+  .footer__link:hover {
+    color: rgb(66, 66, 66)!important;
   }
 }
