@@ -95,38 +95,12 @@
             <script>
               const hoverCircleExample = document.querySelector('#hoverCircleExample');
               const hoverCircleText = document.querySelector('#hoverCircleText');
-              const contentText = document.querySelector('#contentText');
-
-              const mainSectionsContentContainers = document.querySelectorAll('.main__section--content__container');
-              const mainSectionsContentContainersWords = document.querySelectorAll('.main__section--content p');
-              const mainSectionsContentContainersHeaders = document.querySelectorAll('.main__section--content h3');
 
               hoverCircleExample.onmouseenter = function() {
                 hoverCircleText.classList.add("hover__text__fade");
-                contentText.classList.add("hover__text__unfade");
-
-                for (let i = 0; i < mainSectionsContentContainers.length; i++) {
-                  mainSectionsContentContainers[i].classList.add('main__section--black');
-                }
-                for (let i = 0; i < mainSectionsContentContainersWords.length; i++) {
-                  mainSectionsContentContainersWords[i].classList.add('main__section--text-white');
-                }
-                for (let i = 0; i < mainSectionsContentContainersHeaders.length; i++) {
-                  mainSectionsContentContainersHeaders[i].classList.add('main__section--text-white-border');
-                }
               }
               hoverCircleExample.onmouseleave = function() {
                 hoverCircleText.classList.remove("hover__text__fade");
-                contentText.classList.remove("hover__text__unfade");
-                for (let i = 0; i < mainSectionsContentContainers.length; i++) {
-                  mainSectionsContentContainers[i].classList.remove('main__section--black');
-                }
-                for (let i = 0; i < mainSectionsContentContainersWords.length; i++) {
-                  mainSectionsContentContainersWords[i].classList.remove('main__section--text-white');
-                }
-                for (let i = 0; i < mainSectionsContentContainersHeaders.length; i++) {
-                  mainSectionsContentContainersHeaders[i].classList.remove('main__section--text-white-border');
-                }
               }
             </script>
           </div>
