@@ -21,7 +21,7 @@
   <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-  
+
   <!-- SCSS -->
   {{ $style := resources.Get "sass/index.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
@@ -79,20 +79,20 @@
   {{ end }}
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132863786-1"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132863786-5"></script>
   <script>
-    if (document.location.hostname.search("neverfapdeluxe.com") !== -1) {
+    if (document.location.hostname.search("tryhovering.com") !== -1) {
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'UA-132863786-1');
+      gtag('config', 'UA-132863786-5');
     }
-  </script> -->
+  </script>
 
   <!-- Internal Templates -->
-  {{/* template "_internal/google_analytics_async.html" . */}}
-  {{/* template "_internal/opengraph.html" . */}}
+  <!-- {{/* template "_internal/google_analytics_async.html" . */}}
+  {{/* template "_internal/opengraph.html" . */}} -->
   {{ template "_internal/twitter_cards.html" . }}
 </head>
 
